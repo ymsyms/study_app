@@ -16,31 +16,6 @@ DTO (Data Transfer Object): Lightweight objects used to transfer data between ba
 Controller: Handles HTTP requests (REST endpoints)
 Service: Contains business logic and orchestrates operations
 DAO (Data Access Object): Handles database operations using Spring Data JPA
-
-sql-study-app/
-│
-├── app_serives/
-│   ├── src/main/java/com/study/app_serives/
-│   │   ├── controller/
-│   │   ├── service/
-│   │   ├── dao/
-│   │   ├── model/
-│   │   └── SqlStudyApplication.java
-│   ├── src/main/resources/
-│   │   ├── application.properties
-│   │   ├── schema.sql
-│   │   └── data.sql
-│   └── pom.xml
-│
-└── frontend/
-    ├── src/
-    │   ├── App.jsx
-    │   ├── components/
-    │   └── pages/
-    ├── package.json
-    ├── vite.config.js
-    └── index.html
-    
     
 #Database Setup
 Install PostgreSQL
