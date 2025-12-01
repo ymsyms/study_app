@@ -1,4 +1,4 @@
-package com.study.app_services.dao;
+package com.study.app_services.entity;
 import jakarta.persistence.*;
 
 @Entity
