@@ -1,0 +1,4 @@
+app-web/node_modules/
+app-web/build/
+app-web/dist/
+.DS_Store
