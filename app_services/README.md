@@ -1,14 +1,13 @@
 #SQL Study App is a full-stack learning application built to help to study SQL topics, notes, and questions.
 
-Backend: Spring Boot 3.5.7 + PostgreSQL
+Backend: Spring Boot 3.5.7 +  (PostgreSQL) 14.20 
 Frontend: React 19.2 + Vite
 Database: PostgreSQL
 
 The app provides a REST API for managing Topics, Notes, and Questions, and a React frontend for easy interaction.
 
 #Architecture
-
-Frontend <--- DTO ---> Controller <--- Service ---> DAO ---> Database
+React → Controller → Service → DAO → PostgreSQL
 
 #Explanation:
 Frontend: React application consuming the REST API
@@ -17,30 +16,6 @@ Controller: Handles HTTP requests (REST endpoints)
 Service: Contains business logic and orchestrates operations
 DAO (Data Access Object): Handles database operations using Spring Data JPA
 
-sql-study-app/
-│
-├── app_serives/
-│   ├── src/main/java/com/study/app_serives/
-│   │   ├── controller/
-│   │   ├── service/
-│   │   ├── dao/
-│   │   ├── model/
-│   │   └── SqlStudyApplication.java
-│   ├── src/main/resources/
-│   │   ├── application.properties
-│   │   ├── schema.sql
-│   │   └── data.sql
-│   └── pom.xml
-│
-└── frontend/
-    ├── src/
-    │   ├── App.jsx
-    │   ├── components/
-    │   └── pages/
-    ├── package.json
-    ├── vite.config.js
-    └── index.html
-    
     
 #Database Setup
 Install PostgreSQL
