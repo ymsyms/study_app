@@ -1,3 +1,8 @@
+INSERT INTO users (username, password, role) VALUES
+('admin', '{noop}admin123', 'ADMIN'),
+('mod', '{noop}mod123', 'MODERATOR'),
+('user', '{noop}user123', 'USER');
+
 INSERT INTO topics (title, description) VALUES
 ('SELECT Basics', 'Learn how to retrieve data from a table using SELECT'),
 ('JOINs', 'Understand INNER JOIN, LEFT JOIN, RIGHT JOIN'),
